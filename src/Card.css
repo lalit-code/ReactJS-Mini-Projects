@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(205, 224, 224);
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color:rgb(26, 24, 23)
+
+}
+
+.moviecard{
+    background-color: azure;
+    border-radius: 30px;
+    width: 270px;
+    margin: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.moviecard:hover{
+    box-shadow: 3px 3px 18px grey ;
+    transform: scale(1.08);
+    transition: all 0.7s;
+
+}
+
+.moviecard .imgdiv{
+    flex: 70%;
+    overflow: hidden;
+
+}
+
+.moviecard img{
+    width: 100%;
+    height: 350px;
+
+
+}
+
+.moviecard .carddata{
+    padding: 20px;
+    flex: 30%;
+   
+}
+
+.moviecard .carddata h5{
+    padding-bottom: 10px;
+    font-family: Copperplate Gothic Light;
+    color:rgb(94, 92, 92)
+   
+}
+
+.moviecard .carddata {
+    padding: 20px;
+}
+.moviecard .carddata .watchbtn a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.moviecard .carddata .watchbtn{
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.moviecard .carddata .watchbtn:hover{
+    background-color: rgb(166, 178, 179);
+    color: black;
+    
+}
