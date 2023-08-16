@@ -74,13 +74,6 @@ const MovieDATA = [
     srclink: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTkMKFMrv9gfroA4CC9c9C_d8I1NrhiGgVhYGL7xMWO5oylqi4_",
     mainlink: "https://www.hotstar.com/in/movies/drishyam/1000074189",
     platform: "Disney+ Hotstar Original"
-},
-    {
-    name: "Sacred Games",
-    srclink: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQjUd1HJYMd9w_d7N3Lt7wTe81lxILhK-beqvKGsAvE6urJOTY",
-    mainlink: "https://www.netflix.com/in/title/80115328",
-    platform: "A NETFLIX Original"
-
 }
 ]
 
