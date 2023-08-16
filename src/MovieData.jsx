@@ -75,7 +75,7 @@ const MovieDATA = [
     mainlink: "https://www.hotstar.com/in/movies/drishyam/1000074189",
     platform: "Disney+ Hotstar Original"
 }
-]
+] 
 
 
 export default MovieDATA;
